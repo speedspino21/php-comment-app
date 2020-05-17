@@ -1,0 +1,84 @@
+body {
+    font-family: 'Noto Serif';font-size: 18px;
+    background-color: #361C9E;
+    color: white;
+}
+
+li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    width: 50%;
+    margin: 0 25%;
+}
+
+.comment,
+.article {
+    width: 100%;
+}
+
+.timezone{
+    color: white;
+    font-size: small;
+}
+
+.btn {
+    border: 1px solid gray;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 15px 15px;
+    color: #361C9E;
+    background-color: white;
+}
+
+.btn-small {
+    font-size: 12px;
+}
+
+.btn:hover {
+    background-color: #ccc;
+}
+
+.feedback-error {
+    border: 1px solid red;
+    color: red;
+    background-color: lightpink;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 15px 15px;
+}
+
+.feedback-success {
+    border: 1px solid green;
+    color: green;
+    background-color: lightgreen;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 15px 15px;
+}
+
+.view-posting-comments:hover {
+    cursor: pointer;
+}
+
+.index-comment {
+    width: 5%;
+    float: left;
+}
+
+.block-comment {
+    width: 95%;
+}
+
+.block-comment a {
+    color: yellow;
+}
